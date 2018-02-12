@@ -12,7 +12,6 @@ WAR_STAGED_LOCATION="$TEMP_STAGING_DIR/choudhury-rest.war"
 HTTP_PORT_CONFIG_XSL_LOCATION="$TEMP_STAGING_DIR/configure_http_port.xsl"
 
 
-
 # Copy the WAR file to the webapps directory
 cp $WAR_STAGED_LOCATION $CATALINA_HOME/webapps/choudhury-rest.war
 
